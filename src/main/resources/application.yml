@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:8761/eureka/
+      
+server:
+  port: 8767
+  
+spring:
+  application:
+    name: datalink-service
